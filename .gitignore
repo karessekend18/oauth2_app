@@ -35,4 +35,11 @@ build/
 .vscode/
 
 ### Environment Files ###
+# dotenv files containing secrets - do NOT commit
 .env
+
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
